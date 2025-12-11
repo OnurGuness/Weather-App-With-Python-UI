@@ -4,7 +4,7 @@ from PIL import Image
 from io import BytesIO  # Resim verisini hafızada işlemek için
 
 # --- AYARLAR ---
-API_KEY = "3225fe4dbe5ff99422069309cf069d5d" # OpenWeatherMap API Anahtarı 
+API_KEY = "YOUR_OPENWEATHER_API_KEY" # OpenWeatherMap API Anahtarı 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # --- UI AYARLARI ---
@@ -112,4 +112,5 @@ class WeatherApp(ctk.CTk):
 
 if __name__ == "__main__":
     app = WeatherApp()
+
     app.mainloop()
